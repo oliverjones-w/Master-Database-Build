@@ -1,0 +1,9 @@
+
+
+column_mappings = {
+    'FirmTypeID': {
+        'query': 'SELECT FirmTypeName, FirmTypeID FROM FirmType',
+        'id_col_name': 'FirmTypeID'  # specify the ID column name explicitly
+    }
+    # Add other mappings if necessary
+}

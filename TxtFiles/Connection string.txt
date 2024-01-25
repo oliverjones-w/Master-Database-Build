@@ -1,0 +1,8 @@
+username = 'admin'
+password = '420FundingSecured%'  # Assuming % is the URL encoded form of !
+servername = 'OJ-OPTIPLEX\\MSSQLSERVER01'  # Double backslash to escape
+databasename = 'master'
+driver = 'SQL Server'  # Ensure this is the exact name of the driver installed
+
+connection_string = f'mssql+pyodbc://{username}:{password}@{servername}/{databasename}?driver={driver}'
+ver={SQL Server}'
