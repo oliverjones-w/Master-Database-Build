@@ -55,17 +55,18 @@ def upload_data_to_db(file_path, table_name, schema_name, column_mappings=None, 
     print(f"Data uploaded successfully to {schema_name}.{table_name}")
 
 # Usage:
-file_path = r"C:\Users\BSA-OliverJ'22\OneDrive\Desktop\OneDrive\MS SQL Server\SQL_master_import_book.xlsx"
-table_name = 'Firm'
+file_path = r"C:\Users\BSA-OliverJ'22\Projects\Database Architecture\ExcelWorkbooks\SQL_master_import_book.xlsx"
+table_name = 'Profile'
 schema_name = 'dbo'
-column_mappings = {
-    'FirmTypeName': {
-        'query': 'SELECT FirmTypeName, FirmTypeID FROM FirmType',
-        'id_col_name': 'FirmTypeID'
-    }
-}
+#column_mappings = {
+#    'FirmTypeName': {
+#        'query': 'SELECT FirmTypeName, FirmTypeID FROM FirmType',
+#        'id_col_name': 'FirmTypeID'
+#    }
+#}
 
-columns_to_insert = ['FirmName', 'FirmTypeID']  # Specify only the columns you want to insert into the database
+columns_to_insert = ['FullName', 'FinraID']  # Specify only the columns you want to insert into the database
 
+column_mappings = {}
 upload_data_to_db(file_path, table_name, schema_name, column_mappings, columns_to_insert)
 
