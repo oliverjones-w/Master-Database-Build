@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- ... (your existing HTML head content) -->
+</head>
+<body>
+    <!-- Input field for GPT query -->
+    <input type="text" id="gpt-query" placeholder="Enter your GPT query...">
+    <!-- Button to send the GPT query -->
+    <button id="send-query-btn">Send Query</button>
+
+    <!-- Display the SQL query result -->
+    <div>
+        <h2>SQL Query Result:</h2>
+        <div id="sql-query-result">
+            <!-- SQL query result will be displayed here -->
+        </div>
+    </div>
+
+    <!-- Display the response data -->
+    <div>
+        <h2>Response Data:</h2>
+        <div id="table-container"></div>
+            <!-- Response data will be displayed here -->
+        </div>
+    </div>
+
+    <!-- Include your JavaScript file -->
+    <script src="{{ url_for('static', filename='JSScriptTest.js') }}"></script>
+</body>
+</html>

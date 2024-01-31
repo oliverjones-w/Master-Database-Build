@@ -1,0 +1,157 @@
+Tables and Columns:
+
+ClientCoverage
+	ClientCoverageID
+	CoverageName
+ContextualTitle
+	ContextualTitleID
+	ContextualTitleName
+Currency
+	CurrencyID
+	CurrencyCode
+	CurrencyName
+Date
+	DateID
+	Date
+	Year
+	Quarter
+	Month
+	Week
+	DayofWeek
+Firm
+	FirmID
+	FirmName
+	FirmType
+FirmLocation
+	FirmLocationID
+	FirmID
+	LocationID
+FirmType
+	FirmTypeID
+	FirmTypeName
+Focus
+	FocusID
+	FocusName
+Function
+	FunctionID
+	FunctionName
+GroupDesk
+	GroupDeskID
+	GroupDeskName
+HierarchicalTitle
+	HierarchicalTitleID
+	HierarchicalTitleName
+Location
+	LocationID
+	LocationName
+	RegionID
+	CityName
+	StateName
+	CountryName
+	CountryCodeISO3
+	CountryCodeISO2
+	Latitude
+	Longitude
+	Timezone
+	StateNameCode
+Position
+	PositionID
+	NameID
+	FirmID
+	HierarchicalTitleID
+	ContextualTitle
+	GroupDeskID
+	StartDateID
+	EndDateID
+	GroupDeskEst
+	RecordCreated
+PositionClientCoverage
+	PositionClientCoverageID
+	PositionID
+	ClientCoverage
+PositionCurrency
+	PositionFocus
+	PositionFunction
+	PositionLocation
+	PositionReportsTo
+	PositionSectorCoverage
+	Profile
+	ProfileNotes
+	Region
+	SectorCoverage
+	TestTable
+PositionCurrency
+	PositionCurrencyID
+	PositionID
+	CurrencyID
+PositionFocus
+	PositionFocusID
+	PositionID
+	FocusID
+PositionFunction
+	PositionFunctionID
+	PositionID
+	FunctionID
+PositionLocationID
+	PositionID
+	LocationID
+PositionReportsTo
+	PositionReportsToID
+	PositionID
+	ReporterNameID
+PositionSectorCoverage
+	PositionSectorCoverageID
+	PositionID
+	SectorCoverageID
+Profile
+	ProfileID
+	FinraID
+	FullName
+	PersonalMobile
+	PersonalEmail
+	GradYear
+	ProfileNotes
+ProfileNotes
+	ProfileNoteID
+	NameID
+	NoteContent
+	DateCreated
+Region
+	RegionID
+	RegionName
+	ContinentName
+	SubRegionName
+	EconomicBlocName
+SectorCoverage
+	SectorCoverageID
+	SectorName
+TestTable
+	ID
+	TestValue
+	Timestamp
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
